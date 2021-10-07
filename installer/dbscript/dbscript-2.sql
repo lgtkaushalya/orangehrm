@@ -3616,7 +3616,7 @@ VALUES ('apiv2_admin_education', 'API-v2 Admin - Education', 1, 1, 1, 1),
        ('apiv2_admin_oauth_client', 'API-v2 Admin - OAuth Clients', 1, 1, 1, 1),
        ('apiv2_admin_location', 'API-v2 Admin - Locations', 1, 1, 1, 1),
        ('apiv2_admin_pay_grade', 'API-v2 Admin - Pay Grade', 1, 1, 1, 1),
-       ('apiv2_admin_modules', 'API-v2 Admin - Modules', 1, 0, 1, 0);
+       ('apiv2_admin_modules', 'API-v2 Admin - Modules', 1, 0, 1, 0),
        ('apiv2_admin_work_shift', 'API-v2 Admin - Work Shift', 1, 1, 1, 1),
        ('apiv2_admin_work_shift_employee', 'API-v2 Admin - Work Shift Employee', 1, 0, 0, 0);
 
@@ -3663,7 +3663,7 @@ VALUES ('OrangeHRM\\Admin\\Api\\EducationAPI', @admin_module_id, @apiv2_admin_ed
        ('OrangeHRM\\OAuth\\Api\\OAuthClientAPI', @admin_module_id, @apiv2_admin_oauth_client_data_group_id),
        ('OrangeHRM\\Admin\\Api\\LocationAPI', @admin_module_id, @apiv2_admin_location_data_group_id),
        ('OrangeHRM\\Admin\\Api\\PayGradeAPI', @admin_module_id, @apiv2_admin_pay_grade_data_group_id),
-       ('OrangeHRM\\Admin\\Api\\ModulesAPI', @admin_module_id, @apiv2_admin_modules_data_group_id);
+       ('OrangeHRM\\Admin\\Api\\ModulesAPI', @admin_module_id, @apiv2_admin_modules_data_group_id),
        ('OrangeHRM\\Admin\\Api\\WorkShiftAPI', @admin_module_id, @apiv2_admin_work_shift_data_group_id),
        ('OrangeHRM\\Admin\\Api\\WorkShiftEmployeeAPI', @admin_module_id, @apiv2_admin_work_shift_employee_data_group_id);
 
